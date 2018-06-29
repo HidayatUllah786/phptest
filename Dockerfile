@@ -1,5 +1,6 @@
 FROM ubuntu:12.04
 
+# Test line to github webhook plugin to push the code from github to jenkins
 # Install dependencies
 RUN apt-get update -y
 RUN apt-get install -y git curl apache2 php5 libapache2-mod-php5 php5-mcrypt php5-mysql
